@@ -1,0 +1,140 @@
+#footer {
+  background-color: #002f6c;
+  .logo-footer {
+    margin-top: 10px;
+    padding-left: 15px;
+    .footer-text-logo {
+      text-transform: uppercase;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1.1px;
+      line-height: 14px;
+      margin-top: 10px;
+      text-align: left;
+    }
+    .footer-text {
+      color: #a7c6ed;
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: 0.03px;
+      line-height: 20px;
+      text-align: left;
+    }
+  }
+
+  .uredi {
+    padding: 40px 0px;
+    .naslov {
+      text-transform: uppercase;
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 17px;
+    }
+    address {
+      color: #a7c6ed;
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: -0.34px;
+      line-height: 24px;
+    }
+    .first {
+      margin-bottom: 50px;
+    }
+    .second {
+      margin-bottom: 50px;
+    }
+    a {
+      color: #a7c6ed;
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: -0.34px;
+      line-height: 24px;
+    }
+    form {
+      display: block;
+      input {
+        background: #ffffff;
+        border: none;
+        padding: 20px 15px;
+        width: 100%;
+        box-shadow: 10px 10px #001e45;
+      }
+
+      button {
+        &.send {
+          right: 14px;
+          width: 100%;
+          padding: 20px 3px;
+          border: none;
+          background: #ffffff;
+          box-shadow: 10px 10px #001e45;
+          font-size: 14px;
+          font-weight: bold;
+          letter-spacing: 1.44px;
+          color: #212721;
+          text-transform: uppercase;
+          .buttons1 {
+            padding: 0px;
+            &::after {
+              margin: 0;
+              display: inline-block;
+              clear: both;
+              float: none;
+            }
+          }
+        }
+      }
+    }
+    .under-email {
+      padding: 40px 0px;
+      color: #a7c6ed;
+      font-size: 11px;
+      font-weight: 300;
+      letter-spacing: -0.23px;
+      line-height: 18px;
+    }
+  }
+  .copyright {
+    font-size: 11px;	
+    letter-spacing: -0.23px;	
+    line-height: 20px;	
+    opacity: 0.6;	
+    color: #FFFFFF;
+    font-family: "Source Sans Pro";
+  }
+}
+
+@media (min-width: 768px) {
+  #footer {
+    background-color: #002f6c;
+    .logo-footer {
+      padding: 40px 0px;
+      .footer-text-logo {
+        text-align: right;
+      }
+      .footer-text {
+        text-align: right;
+      }
+    }
+    .pull-right {
+      float: right !important;
+    }
+
+  .uredi {
+    form {
+      display: flex;
+      input {
+        width: 80%;
+      }
+      button{
+        &.send {
+          width: 19%;
+        }
+      }
+    }
+    
+    }
+  }
+}

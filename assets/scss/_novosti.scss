@@ -1,0 +1,46 @@
+#novosti {
+  background: #fff;
+
+}
+//   .left-side {
+//     h2 {
+//       color: #212721;
+//       font-family: "Open Sans", sans-serif;
+//       font-size: 32px !important;
+//       font-weight: 300 !important;
+//       letter-spacing: -0.88px;
+//       text-transform: uppercase;
+//     }
+//   }
+//   .right-side {
+//     .news-box {
+//       min-height: 317px;
+//       &:after {
+//         content: "";
+//         display: block;
+//         margin-bottom: 51px;
+//         margin-top: 43px;
+//       }
+//       .news-title {
+//         margin: 34px 0 28px 0;
+//       }
+//     }
+//     :nth-child(1) {
+//       .news-box {
+//         &:after {
+//           content: "";
+//           display: block;
+//           border-bottom: 1px solid rgba(57, 57, 57, 0.22);
+//           margin-bottom: 51px;
+//           margin-top: 43px;
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media (max-width: 426px) {
+  #novosti {
+    padding: 5px;
+  }
+}

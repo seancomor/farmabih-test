@@ -1,0 +1,27 @@
+
+@import 'fonts.scss';
+//Import bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+    font-family: sans-serif;
+}
+body {
+    margin: 0px;
+    color: #2c3b49;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+
+@media only screen and (max-width: 600px) {
+  }
+@import '_header.scss';
+@import '_novosti.scss';
+@import '_aktuelno.scss';
+@import '_shapes.scss';
+@import 'common-styles.scss';
+@import '_news.scss';
+@import '_footer.scss';

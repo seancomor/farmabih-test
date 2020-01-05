@@ -1,0 +1,77 @@
+.category {
+  display: flex;
+  align-items: center;
+  
+  a {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .rectangle {
+    margin: 7px 5px 5px 0px;
+    float: left;
+    height: 7px;
+    width: 19px;
+    &.-grey {
+      background-color: #cfcdc9;
+    }
+    &.-blue {
+      background-color: #0067b9;
+    }
+    &.-red {
+      background-color: #ba0c2f;
+    }
+    &.-dark-blue {
+      background-color: #002f6c;
+    }
+    &.-light-blue {
+      background-color: #a7c6ed;
+    }
+  }
+  &.-uspjesne {
+    a {
+      color: #0067b9;
+    }
+  }
+  &.-dogadjaji {
+    &.news-title {
+      margin-bottom: 18px;
+    }
+    a {
+      color: #ba0c2f;
+    }
+  }
+  &.-grantovi {
+    a {
+      color: #002f6c;
+    }
+  }
+  &.-konsultantske {
+    a {
+      color: #a7c6ed;
+    }
+  }
+  &.-white{
+      a{
+          color: #ffffff;
+      }
+  }
+}
+
+
+.l-border-grey {
+  border-left: 1px solid rgba(59, 59, 59, 0.26);
+}
+
+.r-border-grey {
+  border-right: 1px solid rgba(59, 59, 59, 0.26);
+}
+
+.t-border-grey {
+  border-top: 1px solid rgba(59, 59, 59, 0.26);
+}
+
+.b-border-grey {
+  border-bottom: 1px solid rgba(59, 59, 59, 0.26);
+}
